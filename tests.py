@@ -1,7 +1,7 @@
 from django.core.urlresolvers import resolve
 from django.test import TestCase
 from django.http import HttpRequest, QueryDict
-from hello import index,urlpatterns
+from minimal_django import index, urlpatterns
 
 class HomePageTest(TestCase):
     def test_root_url_resolves_to_home_page_view(self):
