@@ -1,0 +1,11 @@
+---
+application:
+  name: "minimal-django"
+  project: "random-project-076"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-minimal-django"
+  routes:
+  - application_name: "minimal-django"
+    paths:
+    - "/*"
